@@ -1,0 +1,12 @@
+<launch>
+    <node name="butler_robot" pkg="butler_robot" type="navigator.py" output="screen">
+        <param name="home_position" value="[0, 0]" />
+        <param name="kitchen_position" value="[5, 0]" />
+        <param name="table1_position" value="[10, 0]" />
+        <param name="table2_position" value="[10, 5]" />
+        <param name="table3_position" value="[5, 10]" />
+        <param name="timeout_duration" value="10" />
+    </node>
+</launch>
+
+
